@@ -1,0 +1,103 @@
+body{
+    margin: 0%;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 3em;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bg{
+    background-image: url(./img/gamers-555x313.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    font-size: x-large;
+    background-color: rgb(37, 33, 33);
+    width: 100%;
+    padding: 30px
+    
+    
+}
+
+.contenedor a:hover{
+    text-decoration: underline;
+}
+
+i{
+    font-size: 70px;
+    color: aliceblue;
+}
+
+
+
+/* EMPIEZA FOOTER */
+
+.pie{
+    width: 100%;
+    background-color: rgb(22, 20, 20);
+    position: absolute;
+    bottom: 0%;
+}
+
+.pie .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 35px 0px;
+    
+}
+
+.pie .grupo-1 .box h2{
+    color: aliceblue;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.pie .grupo-1 .box p{
+    color: beige;
+    margin-bottom: 5px;
+}
+
+.pie .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: aliceblue;
+    margin-right: 10px;
+    background-color: #000428;
+    text-align: center;
+
+}
+
+.pie .grupo-2{
+    background-color: rgb(37, 33, 33);
+    padding: 5px 5px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.pie .grupo-2 small{
+    font-size: 15px;
+}
+
+/* REDES SOCIALES */
+
+.redes-sociales{
+    height: 200px;
+}
+
+b i{
+    font-size: small;
+}
+/* TERMINA REDES SOCIALES */
